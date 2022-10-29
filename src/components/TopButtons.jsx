@@ -5,23 +5,23 @@ function TopButtons(props) {
     const cities = [
         {
             id: 1,
-            title: "London"
+            title: "Los Angeles"
         },
         {
             id: 2,
-            title: "Sydney"
+            title: "Houston"
         },
         {
             id: 3,
-            title: "Tokyo"
+            title: "Phoenix"
         },
         {
             id: 4,
-            title: "Toronto"
+            title: "Chicago"
         },
         {
             id: 5,
-            title: "Paris"
+            title: "New York"
         },
     ]
 
