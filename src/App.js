@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
-  const [query, setQuery] = useState({q: 'berlin'})
+  const [query, setQuery] = useState({q: 'chicago'})
   const [units, setUnits] = useState('imperial')
   const [weather, setWeather] = useState(null)
 
@@ -54,7 +54,7 @@ function App() {
   fetchWeather()
 
   return (
-    <div className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}>
+    <div className={`mx-auto max-w-screen-md mt-4 py-5 px-5 md:px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}>
       <Title />
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} setUnits={setUnits} />

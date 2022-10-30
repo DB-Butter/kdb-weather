@@ -40,7 +40,7 @@ function Inputs({setQuery, units, setUnits}) {
             <UilLocationPoint onClick={handleLocationClick} size={25} className="text-white cursor-pointer transition ease-out hover:scale-125"/>
         </div>
 
-        <div className='flex flex-row w-1/4 items-center justify-center'>
+        <div className='flex flex-row w-1/4 items-center justify-center relative ml-5'>
             <button onClick={handleUnitsChange} name="metric" className='text-xl text-white font-light transition ease-out hover:scale-125'>°C</button>
             <p className='text-xl text-white mx-1'>|</p>
             <button onClick={handleUnitsChange} name="imperial" className='text-xl text-white font-light transition ease-out hover:scale-125'>°F</button>

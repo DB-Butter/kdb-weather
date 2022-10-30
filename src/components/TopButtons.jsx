@@ -8,14 +8,6 @@ function TopButtons(props) {
             title: "Los Angeles"
         },
         {
-            id: 2,
-            title: "Houston"
-        },
-        {
-            id: 3,
-            title: "Phoenix"
-        },
-        {
             id: 4,
             title: "Chicago"
         },
@@ -29,7 +21,7 @@ function TopButtons(props) {
     <div className='flex items-center justify-around my-6'>
         {cities.map((city) => (
 
-            <button key={city.id} className='text-white text-lg font-medium' onClick={() => props.setQuery({ q: city.title })}>{city.title}</button>
+            <button key={city.id} className='text-white text-lg p-3 font-medium' onClick={() => props.setQuery({ q: city.title })}>{city.title}</button>
 
         ))}
     </div>
