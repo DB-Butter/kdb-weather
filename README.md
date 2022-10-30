@@ -4,6 +4,4 @@ KDB Weather app allows you to check the weather across the globe using the open 
 
 <img src="https://i.imgur.com/ASdzcQu.png" alt="Website Preview" title="K&D Weather App Preview">
 
-Check the °F functionality for responsive sytling! 
-
-Click the location Icon to see your current location's weather!
+Click the Location Icon to check your current location's weather!
