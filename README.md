@@ -1,6 +1,6 @@
 Paired Programming with: Kyle Babcock, https://github.com/KJBabcock
 
-Live site at kndweather.com
+Live site at https://kndweather.com
 
 The K&D Weather app allows you to check the weather across the globe using the open weather API.
 
