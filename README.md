@@ -1,4 +1,4 @@
-Paired Programming with: Kyle Babcock, https://github.com/KJBabcock
+Paired Programming with Kyle Babcock, https://github.com/KJBabcock
 
 Live site at https://kndweather.online
 
